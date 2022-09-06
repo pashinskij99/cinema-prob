@@ -1,0 +1,31 @@
+@import "../../styles/mixins";
+
+.wrapper {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  .logo {
+    width: rem(200);
+    img {
+      width: 100%;
+    }
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    .descr {
+      color: #fff;
+      margin-right: rem(5);
+    }
+    .buttons {
+      button {
+        &:nth-child(1) {
+          margin-right: rem(5);
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,20 @@
+@import "../../styles/mixins";
+
+.wrapper {
+  background: url("../../assets/backgrounds/background_home.jpg")no-repeat center / cover;
+  height: 100%;
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button {
+    padding: rem(50) rem(70);
+    font-size: rem(30);
+    &:nth-child(1) {
+      margin-right: rem(30);
+    }
+  }
+}
